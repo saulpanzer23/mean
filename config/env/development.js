@@ -2,10 +2,10 @@
 
 module.exports = {
 	db: {
-		uri: 'mongodb://localhost/mean-dev',
+		uri: 'mongodb://ds039431.mongolab.com:39431/meanjs',
 		options: {
-			user: '',
-			pass: ''
+			user: 'development',
+			pass: 'development'
 		}
 	},
 	log: {
@@ -18,7 +18,7 @@ module.exports = {
 		}
 	},
 	app: {
-		title: 'MEAN.JS - Development Environment'
+		title: 'Exploring:: MEAN.JS - Development Environment'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',

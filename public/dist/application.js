@@ -43,15 +43,17 @@ angular.element(document).ready(function() {
 });
 'use strict';
 
-// Use Applicaion configuration module to register a new module
+// Use Application configuration module to register a new module
 ApplicationConfiguration.registerModule('articles');
+
 'use strict';
 
-// Use Applicaion configuration module to register a new module
+// Use Application configuration module to register a new module
 ApplicationConfiguration.registerModule('core');
+
 'use strict';
 
-// Use Applicaion configuration module to register a new module
+// Use Application configuration module to register a new module
 ApplicationConfiguration.registerModule('users');
 'use strict';
 
